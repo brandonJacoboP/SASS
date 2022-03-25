@@ -1,0 +1,25 @@
+.inicio{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../SASS/Imagenes/Inicio.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    grid-area: inicio;
+
+    p{
+
+        font-size: 60px;
+        color: white;
+        text-align: center;
+        animation-name: tituloinicio;
+        animation-duration: 5s;
+        
+    
+    }
+
+}

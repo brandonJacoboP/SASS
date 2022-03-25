@@ -1,0 +1,24 @@
+//variables
+$color-principal: #03989E;
+$color-negro: black;
+@import "navestilo";
+@import "inicioestilo";
+
+
+
+
+#grid{
+    display: grid;
+    grid-template-areas: 
+    "header header"
+    "nav nav"
+    "inicio inicio";
+    grid-template-rows: 40px 300px 900px;
+    grid-template-columns: 50% 50%;
+    grid-row-gap: 50px;
+}
+
+.header{
+    background-color: $color-principal;
+    grid-area: header;
+}
